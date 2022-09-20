@@ -1,0 +1,42 @@
+.contact {
+  display: grid;
+  justify-items: center;
+  background: #dbeaf7;
+  padding-bottom: 176px;
+  &__header {
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #234361;
+  }
+  &__text {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #425a70;
+    padding-bottom: 128px;
+  }
+  &__flex {
+    display: flex;
+    width: fit-content;
+    gap: 110px;
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 24px;
+    width: fit-content;
+  }
+  &__link {
+    height: 48px;
+    width: 48px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}

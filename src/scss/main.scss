@@ -1,13 +1,36 @@
 @import "~normalize.css";
-
 @import "_variables";
-@import "modules/hello.scss";
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&family=Roboto+Mono&display=swap");
+@import "../scss/modules/person.scss";
+@import "../scss/modules/hand.scss";
+@import "../scss/modules/skills.scss";
+@import "../scss/modules/projects.scss";
+@import "../scss/modules/contact.scss";
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
 body {
-  background: $wtf;
-  color: #fff;
+  background: white;
+  color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  font-family: "Nunito", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
