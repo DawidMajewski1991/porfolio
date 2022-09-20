@@ -1,4 +1,4 @@
-![cover](https://dawidmajewski1991.github.io/og.png)
+![cover](https://dawidmajewski1991.github.io/portfolio/og.png)
 
 # Dawid Majewski - JUNIOR FRONTEND DEVELOPER
 
