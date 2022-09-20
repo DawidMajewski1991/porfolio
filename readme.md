@@ -1,12 +1,15 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](https://dawidmajewski1991.github.io/og.png)
 
-# WTF Webpack Starter Kit 
+# Dawid Majewski - JUNIOR FRONTEND DEVELOPER
 
-Simple toolkit for your static websites development.
+Portfolio website
 
-## How to use it?
+## Tools
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+- WTF Webpack Starter Kit
+- HTML/CSS/JS
+- GitHub API
+- SCSS
 
 ## Available scripts
 
